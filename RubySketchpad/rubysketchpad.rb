@@ -295,8 +295,55 @@ puts check_phone_number2? ("6147173693")
 
 puts "***************"
 
-name = gets.chomp
+# name = gets.chomp
+#
+# puts "Hello, #{name}"
 
-puts "Hello, #{name}"
+# "This is a test".scan(/../) { |x| puts x }
 
-"This is a test".scan(/../) { |x| puts x }
+# puts "Please enter a date in the following format: MM/DD/YYYY"
+#
+# rawdate = gets.chomp
+#
+# # puts rawdate.scan(/\d\d/)
+# # def change_date
+# #   arraydate = rawdate.split(/\//).inspect
+# #   t = Time.new(arraydate.2, arraydate.0, arraydate.1)
+# #   if gets.chomp == 'f'
+# #     arraydate.collect! {|changedate|}
+# #     changedate = changedate + 10
+# #   elsif gets.chomp == 'b'
+# #     arraydate.collect! {|changedate|}
+# #     changedate = changedate - 10
+# #   end
+# # end
+#
+# # puts "Move forward or backward (by 10 days) in time? f/b"
+# # puts changedate
+#
+# arraydate = rawdate.split(/\//).inspect
+#
+# puts arraydate[2]
+#
+# puts arraydate
+#
+# puts arraydate[1]
+#
+# # puts t = Time.new(arraydate.2.to_i, arraydate.0.to_i, arraydate.1.to_i)
+
+##############################
+
+class Time
+
+end
+
+t = Time.new
+t.inspect
+
+def time_forward
+
+end
+
+def time_backward
+
+end
