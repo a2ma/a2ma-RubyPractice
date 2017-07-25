@@ -15,6 +15,10 @@ end
 #     # end
 # end
 
+# 1.upto(5) {puts "Whither Shall I Go?"}
+#
+# 0.step(50, 5) { |x| puts x }
+
 # def add_number (x,y)
 #   return x+y
 # end
@@ -69,138 +73,145 @@ end
 #
 # puts wilfred.name.downcase
 # puts wilfred.name
-# puts wilfred.name + " is a " + wilfred.dogbreed + " of impeccable credentials."
+# puts wilfred.name + " is a " + wilfred.dogbreed + "
+# of impeccable credentials."
 # puts "The dog's name is " + wilfred.name
 # puts wilfred.name.upcase
 
-x1 = 100
-y = 10
+# x1 = 100
+# y = 10
+#
+# puts x1 - y
 
-puts x1 - y
+# x2 = 50
+#
+# y = x2 * 100
+# x2 += y
+# puts x2
 
-x2 = 50
+# age = 10
+# puts "You're too young to use this system" if age < 18
+#
+# age = 24
+# puts "You're a teenager" if age > 12 && age < 20
+#
+# age = 24
+# puts "You're NOT a teenager" unless age > 12 && age < 20
 
-y = x2 * 100
-x2 += y
-puts x2
+# age = 14
+# puts age.between?(13, 19)
 
-age = 10
-puts "You're too young to use this system" if age < 18
+# age = 24
+# puts "You're 24!" if age == 24
+#
+# x3 = 2
+# y = 2
 
-age = 24
-puts "You're a teenager" if age > 12 && age < 20
+# puts "true" if (x3<=>y) == 0
 
-age = 24
-puts "You're NOT a teenager" unless age > 12 && age < 20
+# puts "You're either very young or very old" if age > 80 || age < 10
 
-age = 14
-puts age.between?(13, 19)
+# gender = "male"
+# age = 17
+# puts "A very young or old man" if gender == "male" && (age < 18 || age > 85)
 
-age = 24
-puts "You're 24!" if age == 24
-
-x3=2
-y=2
-
-puts "true" if (x3<=>y) == 0
-
-puts "You're either very young or very old" if age > 80 || age < 10
-
-gender = "male"
-age = 17
-puts "A very young or old man" if gender == "male" && (age < 18 || age > 85)
-
-5.times {puts "Test"}
+# 5.times {puts "Test"}
 #5.times do puts "Test" end
 
-1.upto(5) {|number| puts number}
-10.downto(5) {|number| puts number}
-0.step(50, 5) {|number| puts number}
+# 1.upto(5) {|number| puts number}
+# 10.downto(5) {|number| puts number}
+# 0.step(50, 5) {|number| puts number}
 
-x4 = 10
-y = 3
-puts x4.to_f / y.to_f
+# x4 = 10
+# y = 3
+# puts x4.to_f / y.to_f
 
-puts 5.7.to_i
+# puts 5.7.to_i
 
 
-Pie = 3.14
+# Pie = 3.14
 # Pie = 2
 
-puts Pie
+# puts Pie
 #try this is irb, overriding constant - gives warning
 
-puts "Hello, world!".class
+# puts "Hello, world!".class
+# puts 29.class
+# puts 123456789010.class
 
-x5 = "Test"
+# x5 = "Test"
+# y = "String"
 
-y = "String"
+# puts "Success!" if x5 + y == "TestString"
 
-puts "Success!" if x5 + y == "TestString"
+# x5 = %q{This is a test
+# of the multi
+# line capabilities}
 
-x5 = %q{This is a test
-of the multi
-line capabilities}
+# puts x = <<END_MY_STRING_PLEASE
+# This is a string
+# And a second line
+# END_MY_STRING_PLEASE
 
-puts x5
+# puts x5
 
-puts "abc" * 5
+# puts "abc" * 5
 
-puts 120.chr
-puts 'x'.ord
+# puts 120.chr
+# puts 'x'.ord
 
 puts "*************"
 
-x = 10
-y = 20
+# x = 10
+# y = 20
 
-puts "#{x} + #{y} = #{x + y}"
-puts "It's a #{"bad " * 5}world"
-
-puts "This is a test".length
-
-puts "semaphore" + "Test"
-
-puts "semaphore".capitalize
-
-puts "semaphore".downcase
-
-puts "semaphore".chop
-
-puts "semaphore".next
-
-puts "semaphore".reverse
-
-puts "semaphore".sum
-
-puts "semaphore".swapcase
-
-puts "semaphore".upcase
-
-puts "semaphore".upcase.reverse
-
-puts "semaphore".upcase.reverse.next
-
-puts "Julianne".sub('Juli', 'Mari')
-
-puts "please enter the dollar cost of your desired package"
-#take input and replace $
-
-puts "5".to_i
-
-puts "Hallelujah it's raining men".gsub('i', '')
-
-x = "This is a test"
-puts x.sub(/^../, 'Hello')
-
-
-x = "This is a test".match(/(\w+) (\w+)/)
-puts x[0]
-puts x[1]
-puts x[2]
-
-a = 0
-puts a += 1 while a < 50
+# puts "#{x} + #{y} = #{x + y}"
+# puts "It's a #{"bad " * 5}world"
+#
+# puts "This is a test".length
+#
+# puts "semaphore" + "Test"
+#
+# puts "semaphore".capitalize
+#
+# puts "semaphore".downcase
+#
+# puts "semaphore".chop
+#
+# puts "semaphore".next
+#
+# puts "semaphore".reverse
+#
+# puts "semaphore".sum
+#
+# puts "semaphore".swapcase
+#
+# puts "semaphore".upcase
+#
+# puts "semaphore".upcase.reverse
+#
+# puts "semaphore".upcase.reverse.next
+#
+# puts "Julianne".sub('Juli', 'Mari')
+#
+# puts "please enter the dollar cost of your desired package"
+# #take input and replace $
+#
+# puts "5".to_i
+#
+# puts "Hallelujah it's raining men".gsub('i', '')
+#
+# x = "This is a test"
+# puts x.sub(/^../, 'Hello')
+#
+#
+# x = "This is a test".match(/(\w+) (\w+)/)
+# puts x[0]
+# puts x[1]
+# puts x[2]
+#
+# a = 0
+# puts a += 1 while a < 50
 
 
 # -write a logic program to compare two arrays and find if they are equal
@@ -281,3 +292,11 @@ puts check_phone_number1? ("614-717-3693")
 puts check_phone_number2? ("6147173693")
 
 #can combine two fns
+
+puts "***************"
+
+name = gets.chomp
+
+puts "Hello, #{name}"
+
+"This is a test".scan(/../) { |x| puts x }
