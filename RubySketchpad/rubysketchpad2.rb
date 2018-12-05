@@ -80,23 +80,7 @@ puts "بسم الله الرحمن الرحيم"
 # array_combo3.pop
 #
 # array_combo3.each {|i| p i}
-########################################################
-#MULTIPLE ITERATIONS
-#1.times do
-#  puts "بسم الله"
-#end
 
-# 20.times do puts "اللهم اغفر لي وارحمني" end
-
-# 10.times do
-#   puts "heeeeelloooo there"
-#     # 10.times do print " "
-#     # end
-# end
-
-# 1.upto(5) {puts "Whither Shall I Go?"}
-#
-# 0.step(50, 5) { |x| puts x }
 
 ########################################################
 # BASIC FUNCTIONS
@@ -226,11 +210,56 @@ puts "بسم الله الرحمن الرحيم"
 # age = 17
 # puts "A very young or old man" if gender == "male" && (age < 18 || age > 85)
 
-# if "four".length == 5
-#   print "The string is 4 characters long."
+# If else elsif
+# print 'Welcome, User. Please enter a string: '
+# str_length = gets.chomp
+#
+# if str_length.length == 4
+#   print 'The string is 4 characters long.'
+# elsif str_length > 4
+#   print 'The string is more than 4 characters long.'
 # else
-#   print "The string is not 4 characters long."
+#   print 'The string is less than 4 characters long.'
 # end
+
+#########################################################
+## Control Flow
+
+# Case
+# print 'Please enter your choice: '
+#
+# x = gets.chomp
+#
+# puts case x
+#        when '1'
+#          'you have chosen 1'
+#        when '2'
+#          'you have chosen 2'
+#        when '3'
+#          'you have chosen 3'
+#        when '4'
+#          'you have chosen 4'
+#        else
+#          'Invalid option'
+#      end
+
+########################################################
+#Iterators
+#1.times do
+#  puts "بسم الله"
+#end
+
+# 20.times do puts "اللهم اغفر لي وارحمني" end
+
+# 10.times do
+#   puts "heeeeelloooo there"
+#     # 10.times do print " "
+#     # end
+# end
+
+# 1.upto(5) {puts "Whither Shall I Go?"}
+#
+# 0.step(50, 5) { |x| puts x }
 
 #########################################################
 #MORE ITERATIONS
@@ -294,6 +323,11 @@ puts "بسم الله الرحمن الرحيم"
 # end
 #
 # puts capitalize(str)
+
+# x = 'Jadakis'
+# puts x[0]
+# puts x[0..3]
+# puts x[-1]
 
 #########################################################
 #BASIC METHODS
@@ -683,27 +717,6 @@ puts "بسم الله الرحمن الرحيم"
 #   puts color
 # end
 
-x = 'Jadakis'
-puts x[0]
-puts x[0..3]
-puts x[-1]
-
-######################################################
-#ALPHABETIZE
-def alphabetize(arr, rev=false)
-  arr.sort!
-  if rev
-    arr.reverse!
-    return arr
-  else
-    return arr
-  end
-end
-
-numbers = [45, 67, 32,45, 67,89]
-
-puts alphabetize(numbers)
-puts alphabetize(numbers, true)
 
 
 
